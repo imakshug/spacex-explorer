@@ -6,7 +6,7 @@ Built as part of the Atmosly React Intern Assignment - A comprehensive SpaceX mi
 
 ## 🌟 Live Demo
 
-**🔗 [View Live Application](https://spacex-explorer-imakshug.vercel.app)**
+**🔗 [View Live Application](https://spacex-explorer-ybvt.vercel.app/)**
 
 [![SpaceX Explorer Screenshot](https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&h=400&fit=crop&crop=center)](https://spacex-explorer-imakshug.vercel.app)
 
