@@ -2,12 +2,13 @@ import '@testing-library/jest-dom'
 import { vi } from 'vitest'
 
 // Mock IntersectionObserver
-global.IntersectionObserver = class IntersectionObserver {
-  constructor() {}
-  disconnect() {}
-  observe() {}
-  unobserve() {}
-}
+const mockIntersectionObserver = vi.fn(() => ({
+  disconnect: vi.fn(),
+  observe: vi.fn(),
+  unobserve: vi.fn(),
+}))
+
+vi.stubGlobal('IntersectionObserver', mockIntersectionObserver)
 
 // Mock window.matchMedia
 Object.defineProperty(window, 'matchMedia', {
